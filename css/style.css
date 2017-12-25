@@ -130,6 +130,29 @@ header {
   justify-content: space-between;
 }
 
+.features .item-1 h3:before {
+  content: '\f080';
+  font-family: FontAwesome;
+  font-size: 30px;
+  margin-right: 15px;
+}
+
+.features .item-2 h3:before {
+  content: '\f085';
+  font-family: FontAwesome;
+  font-size: 30px;
+  margin-right: 15px;
+}
+
+.features .item-2 {
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+.features .item-2 .feature-info {
+  background: linear-gradient(rgba(83, 112, 208, 0.9), rgba(83, 112, 208, 0.9));
+}
+
 .feature {
   height: 280px;
   width: 370px;
@@ -148,7 +171,7 @@ header {
 }
 
 .feature.item-3 {
-  background: url(../images/green-chameleon-21532.jpg);
+  background: url(../images/rawpixel-com-296621.jpg);
   background-size: cover;
 }
 
@@ -162,6 +185,11 @@ header {
   margin-right: 15px;
 }
 
+.feature-info p {
+  margin: 10px 0;
+  line-height: 1.7em;
+}
+
 .readmore::before {
   content: '\f0fe';
   font-family: FontAwesome;
@@ -173,10 +201,6 @@ header {
 a.readmore {
   color: #FFF;
   text-decoration: none;
-}
-
-.feature.item-2 + .feature-info {
-  display: flex;
 }
 
 /*# sourceMappingURL=style.css.map */
