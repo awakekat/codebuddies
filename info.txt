@@ -1,0 +1,14 @@
+https://s3.envato.com/files/238519912/Preview/02_HomePage_v1.jpg
+
+
+Header - 120px tall - 5px tall  blue border
+
+Content width - 1170px
+
+hero image 590px tall
+
+CTA 110px tall
+
+1 Feature Area 430px tall w 70px top and Bottom margin, items 275 tall 370 wide
+
+2 Feature 926pxD tall

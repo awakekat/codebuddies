@@ -1,0 +1,120 @@
+@import partials/vars.sass
+@import partials/mixins.sass
+@import partials/base.sass
+
+/* --- MAIN STYLESHEET --- */
+
+/* HEADER */
+header
+  background: $white
+  border-top: 5px solid $primary
+  height: 120px
+  display: flex
+
+.header-inner
+  display: flex
+  justify-content: space-between
+  align-items: center
+
+  
+.menu
+  list-style-type: none
+  margin: 0
+  display: inline-flex
+  a
+    &:link
+      text-decoration: none
+      color: #555
+
+.menu-item
+  padding: 0 20px
+
+/* HERO */
+.hero
+  display: flex
+  height: 590px 
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../images/ben-white-197680.jpg)
+  background-size: cover
+  flex-direction: column
+  justify-content: center
+  align-items: center
+  .hero-sub
+    color: $white
+    text-transform: uppercase
+    font-size: 30px
+    letter-spacing: 4px
+    margin-bottom: 13px
+  h1
+    color: $white
+    text-transform: uppercase
+    font-size: 60px
+    margin-bottom: 25px
+    
+.hero-btn
+  @include button($primary, $white, $primary)
+
+/* CALL TO ACTION */
+.cta
+  background: $primary
+  height: 110px
+  color: $white
+  .wrapper
+    display: flex
+    align-items: center  
+    justify-content: center
+    align-items: center
+    height: 110px
+
+.cta-text
+  font-size: 18px
+  font-weight: bold
+  span
+    font-size: 28px
+
+
+.cta-btn
+  @include button($primary, $white, $white)
+  
+/* FEATURES */
+.features .wrapper
+  display: flex
+  justify-content: space-between
+    
+.feature
+  height: 280px
+  width: 370px
+  margin: 70px 0
+  border: 1px solid red
+  &.item-1
+    background: linear-gradient(rgba(83, 112, 208, 0.9), rgba(83, 112, 208, 0.9)), url(../images/marius-ciocirlan-398931.jpg)
+    background-size: cover
+  &.item-2
+    background: url(../images/green-chameleon-21532.jpg)
+    background-size: cover
+  &.item-3
+    background: url(../images/green-chameleon-21532.jpg)
+    background-size: cover
+    
+.feature-info
+  padding: 25px
+  color: $white
+  .fa-bar-chart, .fa-cogs
+    font-size: 30px
+    margin-right: 15px
+
+
+    
+.readmore::before
+  content: '\f0fe'
+  font-family: FontAwesome
+  font-size: 14px
+  color: $white
+  margin-right: 7px
+  
+  
+a.readmore
+  color: $white
+  text-decoration: none
+  
+.feature.item-2 + .feature-info
+  display: flex
