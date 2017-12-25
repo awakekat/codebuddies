@@ -144,6 +144,13 @@ header {
   margin-right: 15px;
 }
 
+.features .item-3 h3:before {
+  content: '\f201';
+  font-family: FontAwesome;
+  font-size: 30px;
+  margin-right: 15px;
+}
+
 .features .item-2 {
   display: flex;
   flex-direction: column-reverse;
@@ -153,11 +160,19 @@ header {
   background: linear-gradient(rgba(83, 112, 208, 0.9), rgba(83, 112, 208, 0.9));
 }
 
+.features .item-3 {
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+.features .item-3 .feature-info {
+  background: linear-gradient(rgba(83, 112, 208, 0.9), rgba(83, 112, 208, 0.9));
+}
+
 .feature {
   height: 280px;
   width: 370px;
   margin: 70px 0;
-  border: 1px solid red;
 }
 
 .feature.item-1 {
