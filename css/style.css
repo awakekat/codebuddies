@@ -218,9 +218,10 @@ a.readmore {
   text-decoration: none;
 }
 
-/* SERVICES */
-.services {
+/* WE ARE */
+.we-are {
   background: #EFF0F1;
+  padding: 70px 0;
 }
 
 .we-are-flex {
@@ -231,6 +232,16 @@ a.readmore {
 .we-are-title {
   text-transform: uppercase;
   font-weight: bold;
+  text-align: center;
+  margin-bottom: 70px;
+}
+
+.we-are-title .decor {
+  width: 25px;
+  height: 4px;
+  padding: 3px;
+  border-bottom: 2px solid #aaa;
+  margin: 0 auto;
 }
 
 .we-are-icon {
@@ -242,10 +253,22 @@ a.readmore {
   font-size: 20px;
   line-height: 40px;
   text-align: center;
+  padding: 1px 7px;
+  margin-right: 15px;
 }
 
-.we-are-text {
-  border: 1px solid red;
+.we-are-text h4 {
+  margin-bottom: 7px;
+}
+
+.we-are-text p {
+  line-height: 1.5em;
+}
+
+.we-are-item-1,
+.we-are-item-2,
+.we-are-item-3 {
+  margin-bottom: 40px;
 }
 
 .we-are-item-1,
@@ -255,6 +278,7 @@ a.readmore {
 .we-are-item-5,
 .we-are-item-6 {
   display: flex;
+  width: 33%;
 }
 
 /*# sourceMappingURL=style.css.map */
