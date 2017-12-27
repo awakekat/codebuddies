@@ -16,7 +16,7 @@ header
   justify-content: space-between
   align-items: center
 
-  
+
 .menu
   list-style-type: none
   margin: 0
@@ -32,7 +32,7 @@ header
 /* HERO */
 .hero
   display: flex
-  height: 590px 
+  height: 590px
   background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../images/ben-white-197680.jpg)
   background-size: cover
   flex-direction: column
@@ -49,7 +49,7 @@ header
     text-transform: uppercase
     font-size: 60px
     margin-bottom: 25px
-    
+
 .hero-btn
   @include button($primary, $white, $primary)
 
@@ -60,7 +60,7 @@ header
   color: $white
   .wrapper
     display: flex
-    align-items: center  
+    align-items: center
     justify-content: center
     align-items: center
     height: 110px
@@ -71,20 +71,42 @@ header
   span
     font-size: 28px
 
-
 .cta-btn
   @include button($primary, $white, $white)
-  
+
 /* FEATURES */
 .features .wrapper
   display: flex
   justify-content: space-between
-    
+
+.features
+  .item-1 h3:before
+    content: '\f080'
+    @include feature-icon()
+  .item-2 h3:before
+    content: '\f085'
+    @include feature-icon()
+  .item-3 h3:before
+    content: '\f201'
+    @include feature-icon()
+
+  .item-2
+    display: flex
+    flex-direction: column-reverse
+    // align-items: flex-end
+    .feature-info
+      background: linear-gradient(rgba(83, 112, 208, 0.9), rgba(83, 112, 208, 0.9))
+  .item-3
+    display: flex
+    flex-direction: column-reverse
+    // align-items: flex-end
+    .feature-info
+      background: linear-gradient(rgba(83, 112, 208, 0.9), rgba(83, 112, 208, 0.9))
+
 .feature
   height: 280px
   width: 370px
   margin: 70px 0
-  border: 1px solid red
   &.item-1
     background: linear-gradient(rgba(83, 112, 208, 0.9), rgba(83, 112, 208, 0.9)), url(../images/marius-ciocirlan-398931.jpg)
     background-size: cover
@@ -92,29 +114,76 @@ header
     background: url(../images/green-chameleon-21532.jpg)
     background-size: cover
   &.item-3
-    background: url(../images/green-chameleon-21532.jpg)
+    background: url(../images/rawpixel-com-296621.jpg)
     background-size: cover
-    
+
 .feature-info
   padding: 25px
   color: $white
   .fa-bar-chart, .fa-cogs
     font-size: 30px
     margin-right: 15px
+  p
+    margin: 10px 0
+    line-height: 1.7em
 
-
-    
 .readmore::before
   content: '\f0fe'
   font-family: FontAwesome
   font-size: 14px
   color: $white
   margin-right: 7px
-  
-  
+
 a.readmore
   color: $white
   text-decoration: none
-  
-.feature.item-2 + .feature-info
+
+/* WE ARE */
+.we-are
+  background: $light-gray
+  padding: 70px 0
+
+.we-are-flex
   display: flex
+  flex-wrap: wrap
+
+.we-are-title
+  text-transform: uppercase
+  font-weight: bold
+  text-align: center
+  margin-bottom: 70px
+  .decor
+    @include decor
+
+.we-are-icon
+  background-color: $primary
+  height: 40px
+  width: 40px
+  display: inline-block
+  color: $white
+  font-size: 20px
+  line-height: 40px
+  text-align: center
+  padding: 1px 7px
+  margin-right: 15px
+
+.we-are-text 
+  h4
+    margin-bottom: 7px
+  p
+    line-height: 1.5em
+  
+.we-are-item-1,
+.we-are-item-2,
+.we-are-item-3
+  margin-bottom: 40px
+  
+.we-are-item-1,
+.we-are-item-2,
+.we-are-item-3,
+.we-are-item-4,
+.we-are-item-5,
+.we-are-item-6
+  display: flex
+  width: 33%
+  
