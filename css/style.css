@@ -282,5 +282,52 @@ a.readmore {
 }
 
 /* PROJECTS */
+.projects {
+  background: #212223;
+  padding: 70px;
+}
+
+.projects-title {
+  text-transform: uppercase;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 70px;
+  color: #FFF;
+}
+
+.projects-title .decor {
+  width: 25px;
+  height: 4px;
+  padding: 3px;
+  border-bottom: 2px solid #aaa;
+  margin: 0 auto;
+}
+
+.projects-images {
+  display: flex;
+  position: relative;
+}
+
+.projects-images:before {
+  content: "\f104";
+  font-family: FontAwesome;
+  width: 25px;
+  height: 23px;
+  background: #4C71D1;
+  text-align: center;
+  padding-top: 5px;
+  color: #FFF;
+}
+
+.projects-images:after {
+  content: "\f105";
+  font-family: FontAwesome;
+  width: 25px;
+  height: 23px;
+  background: #4C71D1;
+  text-align: center;
+  padding-top: 5px;
+  color: #FFF;
+}
 
 /*# sourceMappingURL=style.css.map */
