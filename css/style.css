@@ -317,6 +317,10 @@ a.readmore {
   text-align: center;
   padding-top: 5px;
   color: #FFF;
+  position: absolute;
+  top: 45%;
+  left: -13px;
+  z-index: 199;
 }
 
 .projects-images:after {
@@ -328,6 +332,51 @@ a.readmore {
   text-align: center;
   padding-top: 5px;
   color: #FFF;
+  position: absolute;
+  z-index: 99;
+  left: 96.3%;
+  top: 44.3%;
+}
+
+.proj-img-1 {
+  background: url(../images/stefan-stefancik-257625.jpg);
+  background-size: cover;
+  width: 24.3%;
+  height: 230px;
+}
+
+.proj-img-2 {
+  background: url(../images/hunters-race-408744.jpg);
+  background-size: cover;
+  width: 24.3%;
+  height: 230px;
+}
+
+.proj-img-3 {
+  background: linear-gradient(rgba(83, 112, 208, 0.9), rgba(83, 112, 208, 0.9)), url(../images/luiz-hanfilaque-342635.jpg);
+  background-size: cover;
+  width: 24.3%;
+  height: 230px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.proj-img-3 h4 {
+  font-weight: bold;
+  color: #FFF;
+}
+
+.proj-img-3 p {
+  color: #FFF;
+}
+
+.proj-img-4 {
+  background: url(../images/paul-bence-456354.jpg);
+  background-size: cover;
+  width: 24.3%;
+  height: 230px;
 }
 
 /*# sourceMappingURL=style.css.map */
