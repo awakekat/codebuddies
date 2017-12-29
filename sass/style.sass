@@ -218,9 +218,7 @@ a.readmore
     position: absolute
     top: 45%
     left: -13px
-    z-index: 199
-    
-    
+    z-index: 199    
   &:after
     content: "\f105"
     font-family: FontAwesome
@@ -261,10 +259,22 @@ a.readmore
     
   p
     color: $white
+    padding-top: 15px
     
 .proj-img-4
   background: url(../images/paul-bence-456354.jpg)
   background-size: cover
   width: 24.3%
   height: 230px
+
+.choose-us
+  padding: 70px
   
+.choose-us-title
+  text-transform: uppercase
+  font-weight: bold
+  text-align: center
+  margin-bottom: 70px
+  color: $black
+  .decor
+    @include decor

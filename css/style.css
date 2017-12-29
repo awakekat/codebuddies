@@ -16,6 +16,10 @@ body {
   margin: 0 auto;
 }
 
+.flex {
+  display: flex;
+}
+
 /* --- MAIN STYLESHEET --- */
 /* HEADER */
 header {
@@ -370,6 +374,7 @@ a.readmore {
 
 .proj-img-3 p {
   color: #FFF;
+  padding-top: 15px;
 }
 
 .proj-img-4 {
@@ -377,6 +382,26 @@ a.readmore {
   background-size: cover;
   width: 24.3%;
   height: 230px;
+}
+
+.choose-us {
+  padding: 70px;
+}
+
+.choose-us-title {
+  text-transform: uppercase;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 70px;
+  color: #212223;
+}
+
+.choose-us-title .decor {
+  width: 25px;
+  height: 4px;
+  padding: 3px;
+  border-bottom: 2px solid #aaa;
+  margin: 0 auto;
 }
 
 /*# sourceMappingURL=style.css.map */
