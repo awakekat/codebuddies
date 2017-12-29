@@ -83,9 +83,9 @@ header {
 .hero-btn {
   background-color: #4C71D1;
   color: #FFF;
-  padding: 10px 18px;
+  padding: 8px 18px;
   height: 25px;
-  line-height: 25px;
+  line-height: 23px;
   text-align: center;
   width: 100px;
   margin: 0 auto;
@@ -121,9 +121,9 @@ header {
 .cta-btn {
   background-color: #4C71D1;
   color: #FFF;
-  padding: 10px 18px;
+  padding: 8px 18px;
   height: 25px;
-  line-height: 25px;
+  line-height: 23px;
   text-align: center;
   width: 100px;
   margin: 0 auto;
@@ -388,6 +388,7 @@ a.readmore {
   height: 230px;
 }
 
+/* WHY CHOOSE US */
 .choose-us {
   padding: 70px;
 }
@@ -435,6 +436,53 @@ a.readmore {
 .choose-us-txt p {
   margin-bottom: 15px;
   line-height: 1.5em;
+}
+
+/* WORKING WITH US */
+.work-with-us {
+  background: #EFF0F1;
+}
+
+.work-txt {
+  text-align: center;
+  margin-top: 125px;
+}
+
+.work-txt h4 {
+  text-transform: uppercase;
+}
+
+.work-txt .decor {
+  width: 25px;
+  height: 4px;
+  padding: 3px;
+  border-bottom: 2px solid #aaa;
+  margin: 0 auto;
+}
+
+.work-txt p {
+  margin: 25px 0 25px 0;
+}
+
+.work-txt .butn {
+  background-color: #4C71D1;
+  color: #FFF;
+  padding: 8px 18px;
+  height: 25px;
+  line-height: 23px;
+  text-align: center;
+  width: 100px;
+  margin: 0 auto;
+  font-weight: bold;
+  letter-spacing: 1px;
+  border: 3px solid #4C71D1;
+}
+
+.work-img {
+  background: url(../images/marius-ciocirlan-398931-trans.png);
+  background-size: cover;
+  background-position: top -50px right;
+  height: 400px;
 }
 
 /*# sourceMappingURL=style.css.map */
