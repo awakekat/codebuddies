@@ -21,7 +21,15 @@ body {
 }
 
 .half {
-  width: 49.4%;
+  width: 49.9%;
+}
+
+.third {
+  width: 33%;
+}
+
+.upperc {
+  text-transform: uppercase;
 }
 
 /* --- MAIN STYLESHEET --- */
@@ -483,6 +491,91 @@ a.readmore {
   background-size: cover;
   background-position: top -50px right;
   height: 400px;
+}
+
+/* LATEST INFO */
+.latest {
+  background: #FFF;
+  padding: 70px 0;
+}
+
+.latest .arrows {
+  margin-left: 9px;
+  color: #bbb;
+  font-size: 20px;
+}
+
+.latest .decor {
+  width: 25px;
+  height: 4px;
+  padding: 3px;
+  border-bottom: 2px solid #aaa;
+  margin: 0;
+}
+
+.latest-titles {
+  display: flex;
+}
+
+.blog-title {
+  border: 1px solid red;
+}
+
+.blog-img {
+  display: inline-block;
+  border: 1px solid red;
+  margin-top: 20px;
+}
+
+.blog-img img {
+  width: 200px;
+}
+
+.blog-img p {
+  position: relative;
+  width: 180px;
+  background-color: #212223;
+  color: #FFF;
+  margin: 0;
+  top: -4px;
+  padding: 7px 10px;
+}
+
+.blog-txt {
+  width: 65%;
+  border: 1px solid red;
+}
+
+.blog-info {
+  display: flex;
+  margin-top: 30px;
+}
+
+.blog-txt {
+  display: flex;
+  flex-direction: column;
+}
+
+.blog-txt p {
+  margin-top: 10px;
+  line-height: 1.6em;
+}
+
+.blog-extra {
+  margin-top: 37px;
+}
+
+.blog-extra i {
+  color: #bbb;
+}
+
+.blog-extra .fa-plus-square {
+  margin-left: 20px;
+  margin-right: 5px;
+}
+
+.testimonials {
+  border: 1px solid red;
 }
 
 /*# sourceMappingURL=style.css.map */
